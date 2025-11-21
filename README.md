@@ -1,13 +1,21 @@
 环境配置：
 
 pip install transformers==4.38.1
+
 pip install peft
+
 pip install datasets
+
 pip install accelerate
+
 pip install deepspeed
+
 pip install bitsandbytes
+
 pip install jsonlines
+
 pip install sentence_transformers
+
 pip install dashscope
 
 如果transformers和peft出现兼容性问题，就：pip install -U "transformers>=4.40.0" "peft>=0.10.0" "bitsandbytes>=0.43.0" accelerate
